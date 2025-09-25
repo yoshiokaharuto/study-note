@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLの勉強ノート</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <h1>🌐 HTMLの勉強ノート</h1>
+
+    <h2>📌 このノートの目的</h2>
+    <p>Webページの基本構造を理解し、HTMLタグの役割や使い方を学ぶ。</p>
+
+    <h2>🧾 メモとまとめ</h2>
+    <h3>🔹 HTMLとは？</h3>
+    <p>HyperText Markup Language の略で、Webページの「骨組み」を作る言語。</p>
+
+    <h3>🔹 よく使うタグ</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>タグ</th>
+                <th>意味</th>
+                <th>例</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>&lt;h1&gt;</code></td>
+                <td>見出し（大）</td>
+                <td><code>&lt;h1&gt;タイトル&lt;/h1&gt;</code></td>
+            </tr>
+            <tr>
+                <td><code>&lt;p&gt;</code></td>
+                <td>段落</td>
+                <td><code>&lt;p&gt;本文&lt;/p&gt;</code></td>
+            </tr>
+            <tr>
+                <td><code>&lt;a&gt;</code></td>
+                <td>リンク</td>
+                <td><code>&lt;a href="url"&gt;リンク&lt;/a&gt;</code></td>
+            </tr>
+            <tr>
+                <td><code>&lt;img&gt;</code></td>
+                <td>画像</td>
+                <td><code>&lt;img src="image.jpg" alt="説明"&gt;</code></td>
+            </tr>
+            <tr>
+                <td><code>&lt;ul&gt;&lt;li&gt;</code></td>
+                <td>箇条書き</td>
+                <td><code>&lt;ul&gt;&lt;li&gt;項目&lt;/li&gt;&lt;/ul&gt;</code></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>🧪 演習記録</h2>
+    <div class="note">
+        <strong>演習1：</strong> シンプルなHTMLページを作成
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ja"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;自己紹介&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;こんにちは！&lt;/h1&gt;
+    &lt;p&gt;私はWebの勉強中です。&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+    </div>
+
+    <h2>🖼 図解</h2>
+    <img src="../img/html-structure.png" alt="HTMLの基本構造の図解">
+
+    <h2>💡 気づき・反省</h2>
+    <ul>
+        <li><code>&lt;head&gt;</code> と <code>&lt;body&gt;</code> の役割を混同しやすいので注意</li>
+        <li>画像には <code>alt</code> 属性をつけると、アクセシビリティが向上する</li>
+    </ul>
+
+    <h2>🔗 参考リンク</h2>
+    <ul>
+        <li><a href="https://developer.mozilla.org/ja/docs/Web/HTML" target="_blank">MDN HTMLドキュメント</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML入門</a></li>
+    </ul>
+</body>
+
+</html>

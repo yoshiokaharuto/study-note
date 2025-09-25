@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/* ベーススタイル */
+body {
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", sans-serif;
+  line-height: 1.6;
+  margin: 2em;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* 見出し */
+h1 {
+  font-size: 2em;
+  color: #005a9c;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #007acc;
+  margin-top: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #444;
+  margin-top: 1em;
+}
+
+/* リスト */
+ul {
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* コードブロック */
+code {
+  background-color: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+}
+
+/* ノート風の強調ボックス */
+.note {
+  background-color: #fff8dc;
+  padding: 1em;
+  border-left: 5px solid #f4a460;
+  margin-bottom: 1em;
+}
+
+/* 画像 */
+img {
+  max-width: 50%;
+  height: auto;
+  margin-top: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* リンク */
+a {
+  color: #005a9c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  margin-bottom: 2em;
+}
